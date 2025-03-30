@@ -1,0 +1,62 @@
+/* Custom styles that override or extend Tailwind */
+.brand-orange {
+    background-color: #f15a24;
+}
+
+.brand-orange:hover {
+    background-color: #d94b1a;
+}
+
+/* Product image hover effect */
+.product-image-container {
+    transition: transform 0.3s ease;
+}
+
+.product-image-container:hover {
+    transform: scale(1.02);
+}
+
+/* Button animations */
+.btn-cart {
+    transition: all 0.3s ease;
+}
+
+.btn-cart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Product price styling */
+.product-price {
+    color: #f15a24;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-details {
+        padding-top: 2rem;
+    }
+    
+    .product-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Quantity selector */
+.quantity-selector {
+    border-color: #e5e7eb;
+}
+
+.quantity-selector button {
+    background-color: #f3f4f6;
+}
+
+.quantity-selector button:hover {
+    background-color: #e5e7eb;
+}
+
+.quantity-selector input {
+    border-color: #e5e7eb;
+}
